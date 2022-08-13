@@ -1,0 +1,33 @@
+div{
+    font-family: Arial;
+}
+.container{
+    background-color: rgba(130, 40, 153, 0.733);
+    display: flex;
+    height: 46px;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-section{
+    color: white;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.search-bar{
+    border-radius: 16px;
+    border: none;
+    width: 400px;
+    height: 26px;
+    padding-left: 16px;
+}
+.download-button{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-right: 6px;
+}
