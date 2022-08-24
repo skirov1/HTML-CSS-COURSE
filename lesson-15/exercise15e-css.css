@@ -1,0 +1,28 @@
+body{
+    height: 3000px;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+}
+
+.picture{
+    height: 200px;
+    width: 220px;
+    object-fit: cover;
+}
+
+.text{
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    right: 0;
+    top: 6px;
+}
